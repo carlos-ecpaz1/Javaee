@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html utf-8" />
+<link rel ="icon" href="imagem/telefone.png">
+
+<link rel ="stylesheet" href="style.css">
+<title>Cadastro de contato</title>
+</head>
+<body>
+	<h1>Criar novo contato</h1>
+	<form name = "frmContato" action = "insert">
+	
+	<table>
+	
+	<tr>
+	<td><input type = "text" class= "Caixa1"  name = "Nome"  placeholder = "Nome"></td>
+	</tr>
+	<tr>
+	<td><input type = "text" class = "Caixa2"  name = "Telefone" placeholder = "Telefone"></td>
+	</tr>
+	<tr>
+	<td><input type = "email" class = "Caixa1" name = "Email" placeholder = "E-mail"></td>
+	</tr>
+	
+	</table>
+	
+	<input type = "button" class= "Botao1" value ="Adicionar" onclick="validar()">
+	
+	</form>
+<script src="scripts/validador.js"></script>
+</body>
+</html>
